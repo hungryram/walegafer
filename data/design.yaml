@@ -91,8 +91,8 @@ home_sections:
   sold_enable_white_text_color: true
   sold_background_color: "#363636"
   sold_align_title_text: has-text-centered
-  sold_listing_title: ''
-  sold_listing_subtitle: ''
+  sold_listing_title: Sold
+  sold_listing_subtitle: sold listings
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:
