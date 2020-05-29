@@ -36,3 +36,4 @@ fields:
 - name: showcase_enable_white_text_color
   type: boolean
   label: Enable White Text Color
+  description: Enable this to make text readable on dark backgrounds.
