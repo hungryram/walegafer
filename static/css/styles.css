@@ -143,6 +143,7 @@ a.main-btn {
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
+    border: 0;
 }
 
 body {
@@ -523,6 +524,13 @@ div.page-banner {
     .page-banner h2.title {
         font-size: 1.5rem;
     }
+}
+
+/* INTRO SECTION */
+
+a.intro-btn {
+    border-radius: 0;
+    border: 0;
 }
 
 /* CAROUSEL */
