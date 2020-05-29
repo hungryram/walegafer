@@ -80,6 +80,12 @@ home_sections:
   showcase_enable_white_text_color: true
   featured_subtitle: ''
   featured_align_title_text: ''
+- template: rental-listings
+  rental_enable_white_text_color: true
+  rental_title: ''
+  rental_subtitle: ''
+  rental_align_title_text: ''
+  rental_background_color: ''
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:
