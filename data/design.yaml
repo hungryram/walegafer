@@ -83,10 +83,16 @@ home_sections:
   featured_align_title_text: ''
 - template: rental-listings
   rental_enable_white_text_color: true
-  rental_title: 'Rentals'
-  rental_subtitle: 'test'
-  rental_align_title_text: 'has-text-centered'
-  rental_background_color: '#000'
+  rental_title: ''
+  rental_subtitle: ''
+  rental_align_title_text: ''
+  rental_background_color: ''
+- template: sold-listings
+  sold_enable_white_text_color: true
+  sold_background_color: "#363636"
+  sold_align_title_text: has-text-centered
+  sold_listing_title: Sold
+  sold_listing_subtitle: sold listings
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:

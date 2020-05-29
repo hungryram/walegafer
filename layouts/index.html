@@ -42,8 +42,8 @@
                 <!-- Start Carousel -->
                 <div class="columns">
                     <div {{ if .blog_align_title_text }} class="column {{ .blog_align_title_text }} "{{ end }}>
-                        <h1 class="title">{{ .blog_title }}</h1>
-                        <h4>{{ .blog_subtitle }}</h4>
+                        <h1 class="title {{ if .blog_enable_white_text_color }}has-text-white{{ end }}">{{ .blog_title }}</h1>
+                        <h4 class="{{ if .blog_enable_white_text_color }}has-text-white{{ end }}">{{ .blog_subtitle }}</h4>
                     </div>
                 </div>
                 <div class="responsive-slide">
