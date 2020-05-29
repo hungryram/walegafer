@@ -20,6 +20,10 @@ main_image:
   add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
   add_youtube_background_video: false
 home_sections:
+- template: idx-search-bar
+  idx_title: Search
+  idx_enable_white_text_color: true
+  subtitle: ''
 - template: intro
   intro_title: Discover Our Finest Homes
   intro_body: Each section of the home page can be arranged and customized through
