@@ -39,6 +39,12 @@ fields:
       required: false
       color_format: Hex
     label: Background Color
+  - name: intro_button_text_color
+    type: color
+    label: Button Text Color
+    config:
+      required: false
+      color_format: Hex
   label: Add Button
 - name: add_photo
   type: file
