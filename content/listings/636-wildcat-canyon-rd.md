@@ -1,7 +1,7 @@
 +++
 featured_listing = true
 short_description = "Guaranteed Modern"
-status = "Active"
+status = "Rental"
 title = "636 WILDERNESSCAT CANYON RD"
 url = "wildcat property"
 weight = 3900000
