@@ -128,7 +128,11 @@ span.featured {
 
 .list-description {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 500;
+}
+
+.listing-address {
+    font-size: 13px;
 }
 
 .list-pricing {
@@ -168,6 +172,15 @@ body h5.title,
 body h6.title {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+}
+
+body h1.subtitle,
+body h2.subtitle,
+body h3.subtitle,
+body h4.subtitle,
+body h5.subtitle,
+body h6.subtitle {
+    font-family: 'Raleway', sans-serif;
 }
 
 .fa-facebook-f {
@@ -851,6 +864,7 @@ a.descending {
 /* HOME TILE */
 
 .home-tile a {
+    font-family: 'Raleway', sans-serif;
     height: 100%;
     padding: 150px;
     color: #fff;
