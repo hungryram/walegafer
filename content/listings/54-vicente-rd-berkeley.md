@@ -1,8 +1,9 @@
 +++
 featured_listing = true
 short_description = "Villa In Green"
-status = "Active"
+status = "Sold"
 title = "54 VICENTE RD BERKELEY"
+url = ""
 weight = 15990000
 [address]
 address = "54 VICENTE RD"
