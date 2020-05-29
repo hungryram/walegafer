@@ -24,6 +24,7 @@ home_sections:
   idx_title: Search
   idx_enable_white_text_color: true
   subtitle: ''
+  idx_background_color: "#716E6E"
 - template: intro
   intro_title: Discover Our Finest Homes
   intro_body: Each section of the home page can be arranged and customized through
