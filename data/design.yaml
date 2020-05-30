@@ -41,7 +41,7 @@ home_sections:
   listing_subtitle: View our most featured office listings by Real Estate Brokerage.
     Contact us for more questions regarding these listings.
   active_background_color: ''
-  active_enable_white_text_color: true
+  active_enable_white_text_color: false
 - template: featured-tiles
   top_left_tile:
     top_left_featured_title: Los Angeles
