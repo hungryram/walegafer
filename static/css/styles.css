@@ -1191,6 +1191,10 @@ footer ul li i {
     padding-right: 8px;
 }
 
+.title.footer-logo-text {
+    margin-bottom: 10px;
+}
+
 ul.footer-contact li a {
     color: inherit;
 }
