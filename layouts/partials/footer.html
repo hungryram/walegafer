@@ -9,7 +9,7 @@
               {{ with .Site.Data.design.footer.footer_logo}}
           <img src="{{ . }}" alt="{{ $.Site.Data.profile.primary_company_name }}" width="200">
               {{ else }}
-          <h1 class="title is-4 footer-logo-text"  {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>{{ .Site.Data.design.logo_or_title.title }}</h1>
+          <h1 class="title is-4 footer-logo-text"  {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>{{ .Site.Data.profile.primary_company_name }}</h1>
               {{ end }}
         </a>
         <p>{{ .Site.Data.design.footer.footer_bio }}</p>
@@ -22,6 +22,10 @@
 
           {{ with $footerSocial.instagram }}
           <li><a href="{{ . }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.yelp }}
+          <li><a href="{{ . }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>
           {{end}}
 
           {{ with $footerSocial.linkedin }}
@@ -64,7 +68,7 @@
         <ul {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}} class="footer-contact">
           {{ if gt ( len $location.address ) 0 }}{{ if $location }}<li><i class="fas fa-map-marker-alt"></i>{{ $location.address }} {{ $location.city }} {{ $location.state }} {{ $location.zip_code }}</li> {{ end }}{{ end }}
           {{ if $contact.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li> {{ end }}
-          {{ if $contact }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a></li> {{ end }}
+          {{ if $contact.mobile_phone }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a></li> {{ end }}
           {{ if $contact.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li> {{ end }}
         </ul>
         
