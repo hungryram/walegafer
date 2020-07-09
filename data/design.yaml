@@ -5,8 +5,8 @@ logo_or_title:
   favicon: ''
 main_image:
   hero_subtitle: Let's Get Connected
-  home_background_image: "/uploads/shutterstock_683283169.jpg"
-  video_background: true
+  home_background_image: "/uploads/newluxuryext.jpg"
+  video_background: false
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
   hero_title: World Giant Real Estate
@@ -17,7 +17,7 @@ main_image:
     open_in_new_tab: false
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
-  add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
+  add_mp4_link: ''
   add_youtube_background_video: false
 home_sections:
 - template: intro
