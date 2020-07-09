@@ -57,3 +57,5 @@ fields:
   config: {}
   template: url
   label: URL
+pages:
+- content/blog/the-difference-between-home-warranty-home-insurance.md
