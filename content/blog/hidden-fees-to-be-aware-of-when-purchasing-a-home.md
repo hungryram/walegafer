@@ -1,7 +1,7 @@
 +++
 author = []
 categories = ["Buying"]
-date = 2020-07-17T07:00:00Z
+date = 2020-06-26T07:00:00Z
 featured_image = "/uploads/shutterstock_549055441.jpg"
 tags = []
 title = "Hidden Fees to be Aware of When Purchasing a Home"
