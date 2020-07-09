@@ -1,7 +1,7 @@
 +++
 author = []
 categories = ["Insurance"]
-date = 2020-07-15T07:00:00Z
+date = 2020-07-01T07:00:00Z
 featured_image = "/uploads/whiteinterior.jpg"
 tags = []
 title = "The Difference Between Home Warranty & Home Insurance"
