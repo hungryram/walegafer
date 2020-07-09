@@ -38,6 +38,12 @@ home_sections:
     intro_button_background_color: "#9F3948"
     intro_button_text_color: "#FFFFFF"
   intro_enable_white_text_color: false
+- template: featured-blog
+  blog_align_title_text: []
+  blog_title: ''
+  blog_subtitle: ''
+  blog_background: ''
+  blog_enable_white_text_color: false
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:
