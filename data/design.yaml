@@ -4,16 +4,16 @@ logo_or_title:
   title: World Giant
   favicon: ''
 main_image:
-  hero_subtitle: Find your dream home
+  hero_subtitle: Let's Get Connected
   home_background_image: "/uploads/shutterstock_683283169.jpg"
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: OUR LUXURY REAL ESTATE
+  hero_title: World Giant Real Estate
   align_hero_text: has-text-centered
   add_a_button:
-    hero_button_text: VIEW LISTINGS
-    hero_button_link: "/listings"
+    hero_button_text: CONTACT ME
+    hero_button_link: "/contact"
     open_in_new_tab: false
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
