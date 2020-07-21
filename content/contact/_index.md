@@ -1,5 +1,5 @@
 +++
-contact_content = "We look forward to connecting with you."
+contact_content = "We look forward to connecting with you"
 title = "CONTACT US"
 url = ""
 [menu.main]
