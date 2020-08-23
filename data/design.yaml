@@ -21,13 +21,13 @@ main_image:
   add_youtube_background_video: false
 home_sections:
 - template: intro
-  intro_title: Welcome to World Giant Real Estate
+  intro_title: World Giant Design
   intro_body: It is our mission to create a smooth transition for all my real estate
     clients. I truly love this area, and serving its existing and future residents.
     I pride myself on my knowledge of current transactions, school districts, and
     neighborhood information. I'm also very familiar with related services including
     mortgage, insurance, and inspection information. Let my experience and enthusiasm
-    for real estate work for you!
+    for real estate and design work for you!
   add_photo: ''
   intro_align_text: has-text-centered
   intro_background_color: "#FFFFFF"
